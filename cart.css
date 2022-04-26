@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+   
+    padding : 0;
+}
+body {
+    display: flex;
+    justify-content:center;
+}
+.titre p h2 {
+display: flex;
+
+align-content: space-evenly;
+}
+header{
+    border-width: 10px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #FCEA00, #7A751D) 1;
+    background-color: #9ACD32;
+}
+
+.hp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grenne{
+    font-size:20px;
+}
+.phrase_sur_imag    {
+    display: flex;
+    justify-content:center;
+}
+.imag{
+    border-width: 10px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #FCEA00, #7A751D) 1;
+    display: flex;
+    justify-content:center;
+}
+.phrase_a{
+    background: linear-gradient(to right, #FCEA00, #7A751D);
+}
+.phrase_dans_milieu{
+    display: flex;
+    justify-content:center;
+}
+.p_img{
+    display: flex;
+    align-items:center;
+}
+.num{
+    font-size:28px;
+    display: flex;
+    align-items:center;
+}
+
+.line{
+    border: 2px solid rgb(0, 0, 0);
+}
+.foot {
+        display: flex;
+        align-self: flex-end;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+}
+.foot:last-child{
+        flex-wrap: wrap;
+}
+
+
+
+.phrase_dans_fin{
+    display: flex;
+    justify-content:center;
+    font-size: 12px;
+}
+.phrase_c{
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #FCEA00, #7A751D) 1;
+}
